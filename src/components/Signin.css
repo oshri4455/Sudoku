@@ -1,0 +1,97 @@
+#divs{
+    width: 1650px;
+    height: 1000px;
+    display: flex;
+    
+    
+    }
+    #Enter{
+    width: 700px;
+    height: 500px;
+    border: 3px black solid; 
+    position: relative ;
+    left: 400px;
+    top: 200px;
+    font-size: 20px;
+    border-radius: 40px;
+    background-color: whitesmoke;
+    }
+    
+    #userName{
+    position: relative;
+    width: 350px;
+    height: 50px;
+    left: 150px;
+    border-radius: 4px;
+    border:  black solid;
+    font-size: 20px;
+    top: -200px;
+  
+    
+    
+    }
+    
+    #password{
+    position: relative;
+    width: 350px;
+    height: 50px;
+    left: 150px;
+    font-size: 20px;
+    border-radius: 4px;
+    border:  black solid;
+    top: -200px;
+   
+    }
+    
+    #sodoku{
+    position: relative;
+    left: 260px;
+    
+    }
+    
+    #click{
+    position: relative;
+    left: 150px;
+    width: 360px;
+    height: 70px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+   top: -200px;
+    }
+    
+    #pageTitle{
+    position: relative;
+
+    font-size: 100px;
+    color: red;
+ 
+    top: -200px;
+    
+    }
+    
+    body{
+        background-image: url("sudoku.jpg");
+    }
+    #TitelSudouku{
+        text-align: center;
+        position: relative;
+        top: -200px;
+        font-size: 40px;
+     
+    }
+    a{
+        position: relative;
+        left: 50px;
+        top: -250px;
+        font-size: 50px;
+        text-decoration: none;
+        color: black;
+    }
+    #messege1{
+        text-align: center;
+       position: relative;
+       top: -210px;     
+        color: red;
+    }
+    

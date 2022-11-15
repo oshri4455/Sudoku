@@ -1,0 +1,78 @@
+
+
+
+    
+    #divson{
+    border: 6px black solid;
+    width: 1000px;
+    height: 600px;
+    position: relative;
+    left: 450px;
+    top: 100px;
+    background-image: url("rr.jpg");
+    
+    }
+    
+    #Welcome{
+    position: relative;
+    left: 350px;
+    font-size: 50px;
+    color: black;
+    }
+    
+    #level{
+  
+    
+    font-size: 50px;
+    color: black;
+    top: 50px;
+    }
+    
+    #Easy{
+    position: relative;
+    left: 100px;
+    top: 400px;
+    width: 120px;
+    height: 100px;
+    color: black;
+    background-color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    }
+    #Medium{
+    position: relative;
+    left: 300px;
+    top: 400px;
+    width: 120px;
+    height: 100px;
+    background-color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    }
+    
+    #Hard{
+    position: relative;
+    left: 500px;
+    top: 400px;
+    width: 120px;
+    height: 100px;
+    background-color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    }
+    
+
+    #Medium:hover{
+        background-color: gray;
+    }
+    #Easy:hover{
+        background-color: gray;
+    }
+    #Hard:hover{
+        background-color: gray;
+    }
+    
+    #user{
+        text-align: center;
+       color: red;
+    }

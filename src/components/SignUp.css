@@ -1,0 +1,52 @@
+#divs{
+    width: 800px;
+    height: 600px;
+    border: 2px black solid;
+    border-radius: 40px;
+    position: relative;
+    left: 300px;
+    top: 100px;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.signup{
+ 
+    font-size: 30px;
+    position: relative;
+    left: 80px;
+    top: 50px;
+    width: 300px;
+    height: 40px;
+    text-align: left;
+}
+
+#button{
+    width: 400px;
+    height: 70px;
+    border-radius: 10px;
+    color: wheat;
+    background-color: black;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    font-size: 30px;
+}
+h1{
+    text-align: center;
+}
+body{
+    background-image: url('su.jpg');
+}
+#button:hover{
+    background-color: gray;
+}
+
+#messege{
+    text-align: center;
+    position: relative;
+    top: -60px;
+    color: red;
+}
+
+
