@@ -1,5 +1,5 @@
 
-import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import {HashRouter,Routes,Route} from 'react-router-dom'
 import Signin from './components/Signin';
 import SignUp from './components/SignUp';
 import {useState} from 'react'
@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div className="App">
-    <BrowserRouter>
+    <HashRouter>
 
     <Routes>
 <Route path='/' element = {<Signin  userName = {userName}   />}  />
@@ -32,7 +32,7 @@ function App() {
 <Route path='/medium'  element = {<MediumPage   />}   />
 <Route path='/hard' element = {<HardPage   />}   />
     </Routes>
-    </BrowserRouter>
+    </HashRouter>
     </div>
   );
 }
