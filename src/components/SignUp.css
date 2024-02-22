@@ -1,52 +1,48 @@
-#divs{
-    width: 800px;
-    height: 600px;
-    border: 2px black solid;
-    border-radius: 40px;
-    position: relative;
-    left: 300px;
-    top: 100px;
-    background-color: whitesmoke;
-    color: black;
-}
-
-.signup{
- 
-    font-size: 30px;
-    position: relative;
-    left: 80px;
-    top: 50px;
-    width: 300px;
-    height: 40px;
-    text-align: left;
-}
-
-#button{
+#divs {
     width: 400px;
-    height: 70px;
-    border-radius: 10px;
-    color: wheat;
-    background-color: black;
-    position: relative;
-    top: 100px;
-    left: 200px;
-    font-size: 30px;
-}
-h1{
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+  }
+  
+  .signup-input {
+    margin-bottom: 20px;
+  }
+  
+  .signup-input label {
+    font-size: 18px;
+    display: block;
+  }
+  
+  .signup-input input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #button:hover {
+    background-color: #0056b3;
+  }
+  
+  #message {
     text-align: center;
-}
-body{
-    background-image: url('su.jpg');
-}
-#button:hover{
-    background-color: gray;
-}
-
-#messege{
-    text-align: center;
-    position: relative;
-    top: -60px;
     color: red;
-}
-
-
+  }
+  input {
+    border: 1px solid black; /* גבול בעובי 1 פיקסל בצבע שחור */
+  }

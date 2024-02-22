@@ -41,9 +41,11 @@ nav('/menu')
 }
   return (
     <div>
+        <h1 id="title">Sudoku </h1>
   <div id='Enter'>
-<h1 id="pageTitle">Sudoku</h1>
-<h1 id='TitelSudouku' >Login</h1>
+
+
+<h1 id='TitelSudouku' style={{textAlign:'center'}} >Login</h1>
 <br />
 
 <input onChange={(e)=>{setUserName(e.target.value)}} id="userName" class="login" name="email" type="text" placeholder="Enter your Email"></input>
@@ -53,7 +55,8 @@ nav('/menu')
 <br />
 <br />
 <button id='click' onClick={()=>{signIn(userName,password)}}>Sign In</button>
-<Link to={'/signup'} ><a href="">sign Up?</a></Link>
+
+<Link  to={'/signup'} ><a style={{position:'relative',top:'10px',textAlign:'center',fontSize:'30px',color:'blue',alignItems:'center'}} href="">sign Up?</a></Link>
 
 <h1 id="messege1"></h1>  
 </div>

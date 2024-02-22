@@ -2,16 +2,20 @@
 
 
     
-    #divson{
+ body {
+    display: flex;
+    justify-content: center; /* מרכז את התוכן באופן אופקי */
+    align-items: center; /* מרכז את התוכן באופן אנכי */
+    height: 100vh; /* גובה של הדף כולו */
+    background-color: #f0f0f0; /* רקע צבע אפור כלשהו */
+  }
+  
+  #divson {
     border: 6px black solid;
     width: 1000px;
     height: 600px;
-    position: relative;
-    left: 450px;
-    top: 100px;
     background-image: url("rr.jpg");
-    
-    }
+  }
     
     #Welcome{
     position: relative;
