@@ -56,7 +56,7 @@ nav('/menu')
 <br />
 <button id='click' onClick={()=>{signIn(userName,password)}}>Sign In</button>
 
-<Link  to={'/signup'} ><a style={{position:'relative',top:'10px',textAlign:'center',fontSize:'30px',color:'blue',alignItems:'center'}} href="">sign Up?</a></Link>
+<Link  to={'/signup'} ><a style={{position:'relative',top:'10px',textAlign:'center',fontSize:'30px',color:'blue',alignItems:'center',textDecoration:'none'}} href="">sign Up?</a></Link>
 
 <h1 id="messege1"></h1>  
 </div>

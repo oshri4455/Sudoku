@@ -1,82 +1,68 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
 
+#divson {
+  border: 6px black solid;
+  width: 100vw; /* רוחב ריבוע ביחס לרוחב המסך */
+  height: 100vw; /* גובה ריבוע ביחס לרוחב המסך */
+  max-width: 700px; /* רוחב מקסימלי של 600 פיקסלים */
+  max-height: 700px; /* גובה מקסימלי של 600 פיקסלים */
+  background-image: url("rr.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px; /* חיתוך הפינות */
+}
 
+#Welcome {
+  font-size: 5vw;
+  color: black;
+  margin-bottom: 20px;
+  text-align: center;
+}
 
-    
- body {
-    display: flex;
-    justify-content: center; /* מרכז את התוכן באופן אופקי */
-    align-items: center; /* מרכז את התוכן באופן אנכי */
-    height: 100vh; /* גובה של הדף כולו */
-    background-color: #f0f0f0; /* רקע צבע אפור כלשהו */
-  }
-  
+#level {
+  font-size: 40px;
+  color: rgba(255, 51, 0, 0.582); /* צבע הכתובת */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.button {
+  width: 200px; /* רוחב קבוע */
+  height: 50px; /* גובה קבוע */
+  padding: 10px; /* ריווח פנימי */
+  font-size: 20px; /* גודל הגופן */
+  background-color: white; /* רקע לבן */
+  color: black; /* צבע טקסט שחור */
+  border: 2px solid black; /* גבול שחור */
+  border-radius: 10px; /* פינות מעגלות */
+
+  cursor: pointer; /* סמן עכבר כפתור */
+ 
+}
+
+.button:hover {
+  background-color: black; /* רקע שחור בעברה */
+  color: white; /* צבע טקסט לבן בעברה */
+  border-color: black; /* גבול שחור בעברה */
+}
+#user {
+  text-align: center;
+  color: red;
+  font-size: 30px;
+}
+
+/* מדיה קוורי למסכים קטנים */
+@media screen and (max-width: 768px) {
   #divson {
-    border: 6px black solid;
-    width: 1000px;
-    height: 600px;
-    background-image: url("rr.jpg");
+    width: 90vw; /* רוחב ריבוע גדול במסכים קטנים */
+    height: 140vw; /* גובה ריבוע גדול במסכים קטנים */
   }
-    
-    #Welcome{
-    position: relative;
-    left: 350px;
-    font-size: 50px;
-    color: black;
-    }
-    
-    #level{
-  
-    
-    font-size: 50px;
-    color: black;
-    top: 50px;
-    }
-    
-    #Easy{
-    position: relative;
-    left: 100px;
-    top: 400px;
-    width: 120px;
-    height: 100px;
-    color: black;
-    background-color: white;
-    font-size: 30px;
-    border-radius: 10px;
-    }
-    #Medium{
-    position: relative;
-    left: 300px;
-    top: 400px;
-    width: 120px;
-    height: 100px;
-    background-color: white;
-    font-size: 30px;
-    border-radius: 10px;
-    }
-    
-    #Hard{
-    position: relative;
-    left: 500px;
-    top: 400px;
-    width: 120px;
-    height: 100px;
-    background-color: white;
-    font-size: 30px;
-    border-radius: 10px;
-    }
-    
-
-    #Medium:hover{
-        background-color: gray;
-    }
-    #Easy:hover{
-        background-color: gray;
-    }
-    #Hard:hover{
-        background-color: gray;
-    }
-    
-    #user{
-        text-align: center;
-       color: red;
-    }
+}

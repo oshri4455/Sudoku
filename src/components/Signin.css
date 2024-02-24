@@ -6,11 +6,13 @@
 }
 
 #Enter {
-    width: 400px;
-    padding: 30px;
+    width: 600px; /* רוחב קבוע של 600px */
+    height: 600px; /* גובה קבוע של 600px */
     border: 3px solid black;
     border-radius: 20px;
     background-color: #f8f8f8;
+    padding: 30px;
+    box-sizing: border-box; /* כולל את הגבול בגודל המוגדר */
 }
 
 #title {
@@ -34,6 +36,7 @@ input[type="password"] {
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    box-sizing: border-box; /* כולל את הגבול בגודל המוגדר */
 }
 
 #click {
@@ -70,4 +73,20 @@ input[type="password"] {
 #message {
     text-align: center;
     color: red;
+   
+}
+
+/* סידור למסכים בגודל נמוך יותר */
+@media screen and (max-width: 600px) {
+    #Enter {
+        width: 90%;
+        height: auto;
+        margin: 0 auto; /* הזזת האלמנט לאמצע */
+        position: relative;
+    }
+    
+    input[type="text"],
+    input[type="password"] {
+        margin-bottom: 10px; /* הוספת מרווח בין התאינפוטים */
+    }
 }

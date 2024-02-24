@@ -53,8 +53,13 @@ const SignUp = () => {
 
 
   return (
-    <div id='divs'>
-
+    
+    <div >
+ <h1 id="title">Sudoku </h1>   
+ <br />
+ <br />
+ <br />
+<div id='divs'>
 <h2 style={{textAlign:'center',fontSize:'30px'}}>Sign Up</h2>
 <label class="signup" for="">Enter your First Name : </label>
 <input onChange={(e)=>{setFirstName(e.target.value)}} type="text" id="firstName"  class="signup" name="name" />
@@ -78,7 +83,7 @@ const SignUp = () => {
 <br />
 <button onClick={()=>{props.addUser(firstName,lastName,email,password,confirmPaswword);SignUp()}}  id='button' >Sign Up</button>
 
-
+</div>
 
 
 
