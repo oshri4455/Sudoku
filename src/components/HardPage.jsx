@@ -121,6 +121,8 @@ export default function HardPage() {
 
 
 <h1 id="title">Sudoku Hard</h1>
+<br />
+<br />
     <table>
       <tr>
         <td><input id="td00" type="number" maxlength="1" min="1" max="9"/></td>

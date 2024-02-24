@@ -122,7 +122,8 @@ export default function EasyPage() {
 
 
 <h1 id="title">Sudoku Easy</h1>
-
+<br />
+<br />
     <table>
       <tr>
         <td><input id="td00" type="number" maxlength="1" min="1" max="9"/></td>
